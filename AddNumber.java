@@ -14,8 +14,9 @@ public class AddNumber {
 			int b=sc.nextInt();
 			int sum=a+b;
 			System.out.println("sum:"+sum);
+			System.out.println("If you want to continue");
 			choice=sc.next().charAt(0);
-		}while(choice=='Y');
+		}while(choice=='Y'|| choice=='y');
 		sc.close();
 
 	}
